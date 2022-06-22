@@ -1,0 +1,79 @@
+.container {
+  position: absolute;
+  height: 250px;
+  width: 350px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 10px 0px black;
+  border-radius: 2px;
+  background-color: white;
+}
+.color--field {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 60px;
+  width: 300px;
+  line-height: 60px;
+  text-align: center;
+  border: 1px solid black;
+  font-size: 150%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.color--field:focus {
+  outline: none;
+}
+.color--field::selection {
+  background-color: white;
+}
+.copy--btn {
+  position: relative;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 50px;
+  width: 250px;
+  background-color: rgb(255, 255, 255);
+  font-size: 125%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 0.5px solid black;
+  transition: 0.5s;
+}
+.copy--btn:hover {
+  box-shadow: 0px 0px 10px 0px black;
+  border: none;
+}
+.generate--btn {
+  position: relative;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 50px;
+  width: 250px;
+  background-color: white;
+  font-size: 125%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 0.5px solid black;
+  transition: 0.5s;
+}
+.generate--btn:hover {
+  box-shadow: 0px 0px 10px 0px black;
+  border: none;
+}
+.copied {
+  opacity: 0;
+  position: relative;
+  background-color: rgb(125, 247, 49);
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 150%;
+  left: 99%;
+  top: -14.6%;
+  transform: translate(-50%, -50%);
+  transition: 1s;
+}
